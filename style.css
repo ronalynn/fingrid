@@ -1,0 +1,32 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    background: #333;
+  }
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #d4d4d4;
+    height: 500px; 
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background: #d4d4d4;
+}
+tr:nth-child(odd) {
+    background: #fff;
+}
+
+th, td {
+    padding: 10px 30px;
+}
+
+th {
+    border-bottom: 1px solid #d4d4d4;
+}
